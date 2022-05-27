@@ -3,6 +3,7 @@ import Player from './Player';
 
 class Boss extends Entity {
 	constructor() {
+		// TODO: Implement builder pattern to reduce human unreadable parameters being passed around
 		super([0, 0], undefined, 5, 7, 1, 1);
 	}
 
